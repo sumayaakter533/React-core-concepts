@@ -17,7 +17,14 @@ npm run dev
   - `npm install -D tailwindcss postcss autoprefixer vite`
   - `npx tailwindcss init -p`
 - Configure Tailwind. In `tailwind.config.js` add
-  - `content: ["*"]`
+
+  ```js
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}'
+  ],
+  ```
+
 - Add Tailwind CSS directives in `src/index.css`
 
   ```css
