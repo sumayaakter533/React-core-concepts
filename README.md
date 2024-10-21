@@ -30,3 +30,9 @@ npm run dev
 - Import the CSS in your React project. Make sure to import the index.css file into your src/main.jsx - `import './index.css';`
 
 - Run the development server - `npm run dev`
+
+## Thinking in React way
+
+1. Create it apart into pieces called components.
+2. Describe the different visual states for each of the components.
+3. Connect the components together so that the data flows through them.
